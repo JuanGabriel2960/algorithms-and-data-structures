@@ -1,3 +1,10 @@
+/*
+    Given two strings, write a function to determine if
+    the second string is and anagram of the first. An
+    anagram is a word, phrase, or name formed by rearranging
+    the letters of another, such as cinema, formed from iceman.
+*/
+
 // O(N^2)
 const validAnagram = (str1, str2) => {
     let string2 = str2.split("")
