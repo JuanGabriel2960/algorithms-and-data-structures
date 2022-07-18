@@ -5,7 +5,7 @@
     is located. If the value is not found, return -1.
 */
 
-// O(Log(N))
+// O(log n)
 const binarySearch = (array, value) => {
     let min = 0
     let max = array.length - 1
